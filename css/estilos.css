@@ -1,0 +1,192 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul#grid_container2 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.div_container1 {
+    height: 100vh;
+    width: 100vw;}
+    
+
+/* Grid container1 */
+#grid_container1{
+    display: grid;
+    grid-template-rows: 200px, 200px,;
+    grid-template-columns: 200px, 200px;
+}
+
+/* Logo de pagina */
+.logo_argentino{
+    /* height: 100vh; */
+    width: 162vw;
+    /* width: auto; */
+    /* margin: 30px; */
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+/* Contenedor icono de reserva */
+.logo_wasap  {
+    height: 45px;
+    position: relative;
+    top: 10px;
+}
+
+/* Formato de nav bar */
+ul.nav li {
+    margin: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Saira Semi Condensed", Sans-serif;
+    display: inline;
+    text-decoration: none;
+}
+.link {
+    color: rgb(0, 0, 0);
+}
+
+/* Boton reserva */
+.reserva {
+    background-color:rgb(144, 238, 144);
+    border: 5px solid green;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+/* VIDEO */
+section.video {
+    height: 1200px;
+}
+.video_parrilla {
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+/* Formato Main */
+main h1 {
+    font-family: "Seaweed Script", Sans-serif;
+    background-color: white;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    height: 80px;
+    position: relative;
+}
+
+/* Reviews */
+div.reviews_logo span{
+    display: inline-block;
+    margin: 60px
+}
+img.img_google {
+    height: 80px;
+    margin-top: 50px;  
+}
+.exelente {
+    font-weight: bolder;
+}
+.logo_google {
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: -40px;
+}
+img.img_star {
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+/* Mapa */
+
+h3.place {
+    font-family: "Seaweed Script", Sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+section.mapa_horarios {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Horarios */
+div.horarios {
+    height: 450px;
+    width: 600px;
+}
+div.horarios h3 {
+    font-family: "Seaweed Script", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul.list_time li {
+    font-family:  Sans-serif;
+    text-align: center;
+    list-style: none;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+/* Reserva */
+div.escribenos {
+    height: 450px;
+    width: 600px;
+    margin: 30px;
+}
+div.escribenos p {
+    font-family: "Seaweed Script", Sans-serif;
+    font-size: 45px;
+    text-align:center;;
+    height: 250px;
+}
+
+/* Boton reserva */
+div.escribenos div a {
+    text-align: center;
+    background-color:rgb(144, 238, 144);
+    border: 5px solid green;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Saira Semi Condensed", Sans-serif;
+    display: block;;
+    text-decoration: none;
+}
+
+/* Contenedor img wsp reserva */
+img.logo_reserva {
+    height: 30px;
+    width: 30px;
+}
+
+/* Contenedor imagenes redes */
+.redes {
+    height: 50px;
+}
+
+/* Redes sociales */
+div.socialn{ 
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}

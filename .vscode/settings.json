@@ -1,0 +1,9 @@
+{
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.colorCustomizations": {
+    
+    },
+    "editor.linkedEditing": true
+}
