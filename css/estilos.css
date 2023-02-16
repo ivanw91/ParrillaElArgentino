@@ -6,7 +6,7 @@
 
 
 ul#grid_container2 {
-    display: grid;
+    display: flow-root;
     text-align: center;
     grid-template-columns: 1.5fr 0.5fr;
     grid-template-rows: repeat(3,1fr);
@@ -26,14 +26,14 @@ ul#grid_container2 {
 
 /* Logo de pagina */
 .logo_argentino{
-    /* height: 100vh; */
-    width: 162vw;
+    /* height: 100%; */
+    /* width: 100%; */
     /* width: auto; */
     /* margin: 30px; */
-    /* display: flex; */
-    /* align-content: center; */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* Contenedor icono de reserva */
@@ -44,6 +44,7 @@ ul#grid_container2 {
 }
 
 /* Formato de nav bar */
+
 ul.nav li {
     margin: 30px;
     font-size: 45px;
