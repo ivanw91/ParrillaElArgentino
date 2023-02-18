@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Inicio-Parrilla el Argentino</title>
 </head>
 <body>
@@ -13,15 +15,15 @@
         <header>
             <div id="grid_container1">
                 <div><a href="./index.html"><img class="logo_argentino" src="./img/logo.jpg" alt="Logo Argentino"></a></div>
-                <div><nav>
-                    <ul id="grid_container2" class="nav">
-                        <li><a class="link" href="./pages/carta.html">Carta</a></li>
+                <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</button>
+                    <ul class="dropdown-menu" id="grid_container2" class="nav">
+                        <li><button class="dropdown-item" type="button"><a class="link" href="./pages/carta.html">Carta</a></button></li>
                         <li><a class="link" href="./pages/galeria.html">Galeria</a></li>
                         <li class="reserva" class="anchor"><a class="link" href="https://api.whatsapp.com/send?phone=+34665689489&text=Hola!%20quisiera%20hacer%20una%20reserva:%10D%C3%ADa:%09Hora:%09Comensales%20(adultos%20y%20ni%C3%B1os):%09Alergias:"><img class="logo_wasap" src="./img/Whatsapp_.png" alt="Reserva">Reserva</a></li>
                         <li><a class="link" href="./pages/Sugerencias.html">Sugerencias</a></li>
                         <li><a class="link" href="./pages/contacto.html">Contacto</a></li>
                     </ul>
-                </nav></div>
+                </div>
             </div>
         </header>
     
@@ -77,6 +79,7 @@
             <a href="https://www.instagram.com/"><img class="redes" src="./img/instagram.png" alt="instagram"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
